@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MBAutoGrowingTextView.h"
+#import "Demonstration-Swift.h"
 
 @interface ViewController ()
 @property (nonatomic, weak) IBOutlet MBAutoGrowingTextView *textView;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16E0DF5D1B357BC700F6563B /* MBAutoGrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0DF5C1B357BC700F6563B /* MBAutoGrowingTextView.swift */; };
 		9E2156F419261ED80093455E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2156F319261ED80093455E /* Foundation.framework */; };
 		9E2156F619261ED80093455E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2156F519261ED80093455E /* CoreGraphics.framework */; };
 		9E2156F819261ED80093455E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2156F719261ED80093455E /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		9E21571519261ED80093455E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2156F719261ED80093455E /* UIKit.framework */; };
 		9E21571D19261ED80093455E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E21571B19261ED80093455E /* InfoPlist.strings */; };
 		9E21571F19261ED80093455E /* DemonstrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E21571E19261ED80093455E /* DemonstrationTests.m */; };
-		9E21572A19261EF20093455E /* MBAutoGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E21572919261EF20093455E /* MBAutoGrowingTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16E0DF5B1B357BC700F6563B /* Demonstration-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demonstration-Bridging-Header.h"; sourceTree = "<group>"; };
+		16E0DF5C1B357BC700F6563B /* MBAutoGrowingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBAutoGrowingTextView.swift; path = ../../MBAutoGrowingTextView/MBAutoGrowingTextView.swift; sourceTree = "<group>"; };
 		9E2156F019261ED80093455E /* Demonstration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demonstration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2156F319261ED80093455E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E2156F519261ED80093455E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,8 +56,6 @@
 		9E21571A19261ED80093455E /* DemonstrationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemonstrationTests-Info.plist"; sourceTree = "<group>"; };
 		9E21571C19261ED80093455E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E21571E19261ED80093455E /* DemonstrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemonstrationTests.m; sourceTree = "<group>"; };
-		9E21572819261EF20093455E /* MBAutoGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBAutoGrowingTextView.h; path = ../../MBAutoGrowingTextView/MBAutoGrowingTextView.h; sourceTree = "<group>"; };
-		9E21572919261EF20093455E /* MBAutoGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBAutoGrowingTextView.m; path = ../../MBAutoGrowingTextView/MBAutoGrowingTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +119,7 @@
 				9E21570219261ED80093455E /* AppDelegate.h */,
 				9E21570319261ED80093455E /* AppDelegate.m */,
 				9E21570519261ED80093455E /* Main.storyboard */,
+				16E0DF5B1B357BC700F6563B /* Demonstration-Bridging-Header.h */,
 				9E21570819261ED80093455E /* ViewController.h */,
 				9E21570919261ED80093455E /* ViewController.m */,
 				9E21570B19261ED80093455E /* Images.xcassets */,
@@ -159,8 +160,7 @@
 		9E21572B19261EF50093455E /* MBAutoGrowingTextView */ = {
 			isa = PBXGroup;
 			children = (
-				9E21572819261EF20093455E /* MBAutoGrowingTextView.h */,
-				9E21572919261EF20093455E /* MBAutoGrowingTextView.m */,
+				16E0DF5C1B357BC700F6563B /* MBAutoGrowingTextView.swift */,
 			);
 			name = MBAutoGrowingTextView;
 			sourceTree = "<group>";
@@ -262,10 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E0DF5D1B357BC700F6563B /* MBAutoGrowingTextView.swift in Sources */,
 				9E21570A19261ED80093455E /* ViewController.m in Sources */,
 				9E21570419261ED80093455E /* AppDelegate.m in Sources */,
 				9E21570019261ED80093455E /* main.m in Sources */,
-				9E21572A19261EF20093455E /* MBAutoGrowingTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,10 +390,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demonstration/Demonstration-Prefix.pch";
 				INFOPLIST_FILE = "Demonstration/Demonstration-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demonstration/Demonstration-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +407,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demonstration/Demonstration-Prefix.pch";
 				INFOPLIST_FILE = "Demonstration/Demonstration-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demonstration/Demonstration-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +477,7 @@
 				9E21572419261ED80093455E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E21572519261ED80093455E /* Build configuration list for PBXNativeTarget "DemonstrationTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +486,7 @@
 				9E21572719261ED80093455E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
